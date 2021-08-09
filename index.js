@@ -10,7 +10,7 @@ module.exports = {
     description: "Sets up a reaction role message!",
     async execute(message, args, Discord, client) {
 
-        const channel = '⛔┃règlement';
+        const channel = 'règlement';
         const memberRole = message.guild.roles.cache.find(role => role.name === "Membre");
  
         const reactEmoji = 'white_check_mark';

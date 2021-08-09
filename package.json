@@ -1,6 +1,22 @@
 {
+  "name": "oralion-bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmakYop/oralion-bot.git"
+  },
+  "author": "smakyop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmakYop/oralion-bot/issues"
+  },
+  "homepage": "https://github.com/SmakYop/oralion-bot#LICENSE",
   "dependencies": {
-    "discord.js": "^13.0.1",
-    "dotenv": "^10.0.0"
+    "discord.js": "^13.0.1"
   }
 }
